@@ -1,0 +1,14 @@
+img {
+  background-color: black;
+  width: 1900px;
+  height: 1090px;
+}
+
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    80deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}

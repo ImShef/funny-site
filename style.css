@@ -1,0 +1,59 @@
+body {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    80deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  font-family: Snell Roundhand, cursive;
+}
+
+@keyframes markuPizdec {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(78%);
+  }
+}
+
+@keyframes markuPizdec2 {
+  from {
+    transform: translateX(10%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.markfoto {
+  width: 400px;
+  height: 340px;
+  border-radius: 50px;
+  animation: markuPizdec 5s infinite alternate-reverse ease-out 5s;
+}
+
+.text {
+  font-family: "Comic Sans MS";
+  font-size: 18px;
+}
+
+.mark {
+  font-size: 40px;
+}
+
+button {
+  width: 100%;
+  height: 300px;
+  border-radius: 50px;
+  background-color: red;
+  font-family: Snell Roundhand, cursive;
+  font-size: 50px;
+}
+
+.markfoto2 .markfoto {
+  width: 45%;
+  animation: markuPizdec2 5s infinite alternate-reverse ease-out;
+}
