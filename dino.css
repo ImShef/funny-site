@@ -93,6 +93,23 @@
 }
 
 
-body { background-image: url ("./images/1545493521_pic52.gif");
-
+body { 
+  background: rgb(117,249,243);
+  background: linear-gradient(90deg, rgba(117,249,243,1) 0%, rgba(214,26,26,1) 50%, rgba(32,23,196,1) 100%);
      }
+
+
+.new {
+  background-image: url("./images/knopk.jpg");
+    width: 28%;
+    height: 400px;
+    font-family: Snell Roundhand, cursive;
+    font-size: 50px;
+    -webkit-box-shadow: -7px 5px 8px -1px rgba(34, 60, 80, 0.2) inset;
+-moz-box-shadow: -7px 5px 8px -1px rgba(34, 60, 80, 0.2) inset;
+box-shadow: -7px 5px 8px -1px rgba(34, 60, 80, 0.2) inset;
+}
+
+body {
+  font-family: Snell Roundhand, cursive;
+}

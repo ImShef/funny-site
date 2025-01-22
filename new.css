@@ -1,0 +1,10 @@
+.plash {
+    width: 1900px;
+    height: 933px;
+}
+
+
+body {
+    background: rgb(235,249,1);
+background: linear-gradient(0deg, rgba(235,249,1,1) 0%, rgba(255,113,10,1) 51%, rgba(252,148,0,1) 100%);
+}
