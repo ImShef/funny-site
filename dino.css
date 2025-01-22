@@ -49,7 +49,7 @@
   left: 580px;
   animation: cactusMov 1.5s infinite;
   animation-timing-function: cubic-bezier(0.5, 0.5, 0.7, 0.5);
-  background-image: url("images/Python.png");
+  background-image: url("./Python.png");
 }
 @keyframes cactusMov {
   0% {
@@ -89,5 +89,5 @@
   position: relative;
   top: 170px;
   left: 1230px;
-  background-image: url("images/arkadi2.jpg");
+  background-image: url("./arkadi2.jpg");
 }
