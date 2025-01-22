@@ -1,0 +1,115 @@
+.game {
+  width: 600px;
+  height: 200px;
+  border-bottom: 1px solid #000;
+  margin: auto;
+}
+#cont {
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
+}
+#diff {
+  top: 30px;
+  background: green;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+#btn {
+  width: 55px;
+  top: 30px;
+  background: green;
+  right: 100px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+#out {
+  top: 30px;
+  color: green;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+#dino {
+  width: 50px;
+  height: 50px;
+  background: radial-gradient(white, black);
+  background-size: 50px 50px;
+  border-radius: 30px;
+  position: relative;
+  top: 150px;
+  background-image: url("./images/mark.jpeg");
+}
+#cactus {
+  width: 20px;
+  height: 40px;
+  background: radial-gradient(green, black);
+  background-size: 20px 40px;
+  position: relative;
+  top: 110px;
+  left: 580px;
+  animation: cactusMov 1.5s infinite;
+  animation-timing-function: cubic-bezier(0.5, 0.5, 0.7, 0.5);
+  background-image: url("./images/Python.png");
+}
+@keyframes cactusMov {
+  0% {
+    left: 580px;
+  }
+  100% {
+    left: -20px;
+  }
+}
+.jump {
+  animation: jump 0.3s linear;
+}
+@keyframes jump {
+  0% {
+    top: 150px;
+  }
+  20% {
+    top: 130px;
+  }
+  50% {
+    top: -90px;
+  }
+  80% {
+    top: 130px;
+  }
+  100% {
+    top: 150px;
+  }
+}
+
+.arkadi {
+  width: 50px;
+  height: 50px;
+  background: radial-gradient(white, black);
+  background-size: 50px 50px;
+  border-radius: 50px;
+  position: relative;
+  top: 170px;
+  left: 1230px;
+  background-image: url("./images/arkadi2.jpg");
+}
+
+
+body { 
+  background: rgb(117,249,243);
+  background: linear-gradient(90deg, rgba(117,249,243,1) 0%, rgba(214,26,26,1) 50%, rgba(32,23,196,1) 100%);
+     }
+
+
+.new {
+  background-image: url("./images/knopk.jpg");
+    width: 28%;
+    height: 400px;
+    font-family: Snell Roundhand, cursive;
+    font-size: 50px;
+    -webkit-box-shadow: -7px 5px 8px -1px rgba(34, 60, 80, 0.2) inset;
+-moz-box-shadow: -7px 5px 8px -1px rgba(34, 60, 80, 0.2) inset;
+box-shadow: -7px 5px 8px -1px rgba(34, 60, 80, 0.2) inset;
+}
+
+body {
+  font-family: Snell Roundhand, cursive;
+}
