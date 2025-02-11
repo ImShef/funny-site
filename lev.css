@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  font-family: Arial, sans-serif;
+  background-image: url(images/lev.jpg);
+}
+
+.game-container {
+  position: relative;
+  width: 400px;
+  height: 600px;
+  background-color: #70c5ce;
+  border: 2px solid #000;
+  overflow: hidden;
+  background-image: url(images/ad.jpg);
+}
+
+#bird {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #ffcc00;
+  border-radius: 50%;
+  top: 50%;
+  left: 50px;
+  background-image: url(images/levt.jpg);
+}
+
+.obstacle {
+  position: absolute;
+  width: 60px;
+  right: -60px;
+  background: linear-gradient(
+    0deg,
+    rgb(255, 0, 0) 0%,
+    rgb(00, 255, 0) 51%,
+    rgb(0, 0, 255) 100%
+  );
+}
+
+#obstacle-top {
+  top: 0;
+}
+
+#obstacle-bottom {
+  bottom: 0;
+}
+
+#score {
+  position: absolute;
+  top: 250px;
+  font-size: 54px;
+  color: #ff0000;
+}

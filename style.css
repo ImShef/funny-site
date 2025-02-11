@@ -57,3 +57,7 @@ button {
   width: 45%;
   animation: markuPizdec2 5s infinite alternate-reverse ease-out;
 }
+
+.lev {
+  background-image: url(images/lev.jpg);
+}
