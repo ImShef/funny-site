@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 img {
   background-color: black;
   width: 1900px;
